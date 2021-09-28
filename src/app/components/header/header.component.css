@@ -1,0 +1,149 @@
+
+#logo {
+    position: absolute;
+    left: 50%;
+    top:5%;
+    max-width: 100%;
+    margin-left: -224px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar{
+  top:-2%;
+background-color: transparent !important;
+z-index: 19;
+}
+
+
+
+          .menu-button {
+              margin-right: 24px;
+              min-width: 0;
+              padding: 0;
+              top:24px;
+              line-height: normal;
+          }
+
+hr {
+  height: 2px;
+  width: 80%;
+  left: 50%;
+  top:0;
+  background-color: black;
+}
+
+
+.sidenav-container {
+    flex: 1;
+    background-color: transparent !important;
+
+    .sidenav {
+        min-width: 240px;
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        z-index: 20;
+
+        a {
+            display: block;
+            padding: 16px 24px;
+            width: 100%;
+            text-align: center;
+        }
+
+
+
+    }
+    main {
+        padding: 18px 24px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  #logo {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.mouse-wrap {
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 50px;
+  z-index: 9; }
+  .mouse-wrap:active, .mouse-wrap:active > .mouse-label, .mouse-wrap:focus, .mouse-wrap:focus > .mouse-label {
+    outline: none; }
+  .mouse-wrap.mouse-with-slider {
+    bottom: -50px; }
+  .mouse-wrap .mouse-label {
+    top: 0;
+    color: #ccc;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    text-transform: uppercase; }
+  .mouse-wrap .mouse {
+    position: absolute;
+    width: 22px;
+    height: 42px;
+    bottom: 30px;
+    display: block;
+    left: 50%;
+    margin-left: -12px;
+    border-radius: 15px;
+    border: 2px solid #ccc;
+    -webkit-animation: intro 2s;
+    animation: intro 2s; }
+    .mouse-wrap .mouse .scroll {
+      display: block;
+      width: 3px;
+      height: 3px;
+      margin: 6px auto;
+      border-radius: 4px;
+      background: #ccc;
+      -webkit-animation: finger 2s infinite;
+      animation: finger 2s infinite; }
+
+      @-webkit-keyframes intro {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-webkit-keyframes finger {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); } }
+
+@keyframes finger {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); } }

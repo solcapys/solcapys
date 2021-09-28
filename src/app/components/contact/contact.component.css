@@ -1,0 +1,30 @@
+.card
+{
+  border: none;
+  background-color: transparent !important;
+}
+
+.white {
+  color: white;
+}
+
+
+.container
+{
+padding-top:  150px;
+padding-bottom: 150px;
+
+}
+
+h1{
+padding-bottom: 3em;
+color: white;
+}
+
+h4{
+  color: white;
+  }
+
+  p{
+    color: white;
+    }

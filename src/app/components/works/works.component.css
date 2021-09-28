@@ -1,0 +1,40 @@
+
+.card
+{
+  border: none;
+  background-color: transparent !important;
+}
+
+p
+{
+  color: white;
+}
+
+h1
+{
+
+  padding-bottom: 3em;
+  color: white;
+}
+
+.engine-wrapper
+{
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.capyBody {
+  text-align: center;
+  padding: 1%;
+}
+
+.capyBody img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 5%;
+}

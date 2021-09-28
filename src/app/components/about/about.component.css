@@ -1,0 +1,24 @@
+.container
+{
+padding-top:  150px;
+height: 100vh;
+padding-bottom: 150px;
+position: relative;
+z-index: 20 !important;
+
+}
+
+p
+{
+  color: white;
+  z-index: 20 !important;
+  
+}
+
+h1
+{
+
+  padding-bottom: 3em;
+  color: white;
+  z-index: 20 !important;
+}
