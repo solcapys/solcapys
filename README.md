@@ -1,6 +1,3 @@
 # solcapys
-P5.js test usign angular 
- 
- particle effect 
- 
-  https://mataperezluis.github.io/solcapys/ 
+
+web page for solana nft project solcapys
