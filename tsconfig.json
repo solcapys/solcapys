@@ -5,6 +5,14 @@
   To learn more about this file see: https://angular.io/config/solution-tsconfig.
 */
 {
+
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+
+  },
+
   "files": [],
   "references": [
     {
@@ -13,8 +21,5 @@
     {
       "path": "./tsconfig.spec.json"
     }
-],
-"compilerOptions": [{
-    "jsx": "react"
-}]
+    ]
 }

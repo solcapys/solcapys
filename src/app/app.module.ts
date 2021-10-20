@@ -16,6 +16,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ServicioService} from './servicio.service';
 import { RoadmapComponent } from './roadmap/roadmap.component';
 import { TeamComponent } from './components/team/team.component';
+import { RarityComponent } from './components/rarity/rarity.component';
+
+import { DataTablesModule } from "angular-datatables";
 
 @NgModule({
   declarations: [
@@ -27,6 +30,7 @@ import { TeamComponent } from './components/team/team.component';
     ContactComponent,
     RoadmapComponent,
     TeamComponent,
+    RarityComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +39,8 @@ import { TeamComponent } from './components/team/team.component';
     MatSidenavModule,
     MatIconModule,
     MatButtonModule,
-    MatListModule
+    MatListModule,
+    DataTablesModule
   ],
   exports: [
     MatSidenavModule,

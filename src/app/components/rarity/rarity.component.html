@@ -1,0 +1,46 @@
+<br>
+<br>
+<h1 class="texto">Rarity</h1>
+<br>
+<table datatable [dtOptions]="dtOptions" class="nueva-tabla">
+    <thead>
+      <tr>
+        <th>Capy</th>
+        <th>Rank</th>
+        <th>Background</th>
+        <th>Boca</th>
+        <th>Cig</th>
+        <th>Cuerpo</th>
+        <th>Ear</th>
+        <th>Gorro</th>
+        <th>Lentes</th>
+        <th>Ojos</th>
+        <th>Ropa</th>
+        
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let value of capysDataTotal">
+        <td>{{ value.Capys}}</td>
+        <td>{{ value.Ranking}}</td>
+
+        <td>{{ value.background + ' count: ' + value.background_count}}</td>
+        <td>{{ value.boca + ' count: ' + value.boca_count}}</td>
+        <td>{{ value.cig + ' count: ' + value.cig_count}}</td>
+        <td>{{ value.cuerpo + ' count: ' + value.cuerpo_count}}</td>
+        <td>{{ value.ear + ' count: ' + value.ear_count}}</td>
+        <td>{{ value.gorro + ' count: ' + value.gorro_count}}</td>
+        <td>{{ value.lentes + ' count: ' + value.lentes_count}}</td>
+        <td>{{ value.ojos + ' count: ' + value.ojos_count}}</td>
+        <td>{{ value.ropa + ' count: ' + value.ropa_count}}</td>
+
+      </tr>
+    </tbody>
+
+    <tfoot></tfoot>
+  </table>
+
+  <br>
+  <br>
+  <br>
