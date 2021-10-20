@@ -16,8 +16,6 @@ export class WorksComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.engServ.createScene(this.rendererCanvas);
-    this.engServ.animate();
 
   }
 
